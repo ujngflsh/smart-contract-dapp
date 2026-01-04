@@ -32,35 +32,54 @@ This project demonstrates how a frontend app can interact with a deployed smart 
 - Interaction type: **Read-only**
 - Function called: `getMessage()`
 
-The smart contract stores a message on-chain and exposes a public view function to retrieve it.
+The smart contract stores a message on-chain and exposes a public `view` function to retrieve it.
+Data is fetched using a public RPC provider without wallet connection.
 
 ---
+
+## ⚙️ Installation & Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/smart-contract-interaction-dapp.git
+cd smart-contract-interaction-dapp
+
+Install dependencies
+npm install
+
+Run the development server
+npm run dev
+
+Open your browser and visit
+http://localhost:3000
+
+📸 Preview
 
 ## 📸 Preview
 
-![Smart Contract Interaction dApp](public/Screenshot) 
+![Smart Contract Interaction dApp](https://raw.githubusercontent.com/ujngflsh/smart-contract-dapp/main/public/screenshot.png)
+
 > **"Hello Web3"**
 
----
 
-## 🧠 Notes
+🧠 Notes
 
-- This project focuses on **frontend–smart contract interaction**
-- No wallet connection or transaction signing is required
-- Gas-free because only `view` functions are used
-- Suitable as a beginner-to-intermediate Web3 frontend portfolio project
+This project focuses on frontend–smart contract interaction
 
----
+No wallet connection or transaction signing is required
 
-## 📌 Future Improvements
+Gas-free because only view functions are used
 
-- Wallet connection (MetaMask)
-- Write interaction (setMessage)
-- Network switching
-- Transaction status feedback
+Suitable as a beginner-to-intermediate Web3 frontend portfolio project
 
----
+📌 Future Improvements
 
-## 👤 Author
+Wallet connection (MetaMask)
 
-Built as part of a Web3 frontend learning roadmap.
+Write interaction (setMessage)
+
+Network switching
+
+Transaction status feedback
+
