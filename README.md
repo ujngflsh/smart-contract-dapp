@@ -54,11 +54,10 @@ npm run dev
 Open your browser and visit
 http://localhost:3000
 
-📸 Preview
 
 ## 📸 Preview
 
-![Smart Contract Interaction dApp](https://raw.githubusercontent.com/ujngflsh/smart-contract-dapp/main/public/screenshot.png)
+![Smart Contract Interaction dApp](./screenshot.png)
 
 > **"Hello Web3"**
 
