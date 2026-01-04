@@ -57,9 +57,12 @@ http://localhost:3000
 
 ## 📸 Preview
 
-![Smart Contract Interaction dApp](./screenshot.png)
+## 📸 Preview
+
+![Smart Contract Interaction dApp](https://raw.githubusercontent.com/ujngflsh/smart-contract-dapp/main/screenshot.png)
 
 > **"Hello Web3"**
+
 
 
 🧠 Notes
